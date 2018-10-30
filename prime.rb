@@ -5,7 +5,7 @@ elsif integer == 3 then true
 else
 array = 2..integer-1
 array.map {|number| integer%number}
-array.ant?(0)
+!array.any?(0)
 end
 
 end
